@@ -104,10 +104,10 @@ export default function ResetPassword() {
             <div className="flex flex-col items-center justify-center mb-6 mt-4 gap-4">
               <div className="flex items-center gap-5">
                 <div className="bg-white/95 backdrop-blur-md px-4 py-3 rounded-2xl shadow-xl border border-white/20">
-                  <img src="/Logo.png" alt="Advita Credit Logo" className="h-12 object-contain" />
+                  <img src="/Logo.png" alt="Sahayaone Logo" className="h-12 object-contain" />
                 </div>
                 <h1 className="text-[28px] font-black text-white uppercase tracking-widest drop-shadow-md leading-tight text-left">
-                  WELCOME TO <br/> ADVITA CREDIT
+                  WELCOME TO <br/> SAHAYAONE
                 </h1>
               </div>
               <div className="w-48 h-1 bg-[#EB3338] rounded-full shadow-md mt-2"></div>
@@ -123,7 +123,7 @@ export default function ResetPassword() {
           <div className="flex flex-col items-center justify-center w-full max-w-[420px]">
             <div className="w-full bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20">
               <div className="flex justify-center mb-4">
-                <img src="/Logo.png" alt="Advita Credit Logo" className="h-12 object-contain drop-shadow-sm" />
+                <img src="/Logo.png" alt="Sahayaone Logo" className="h-12 object-contain drop-shadow-sm" />
               </div>
               <h1 className="text-[24px] font-black text-center mb-1 uppercase tracking-tight flex items-center justify-center gap-2">
                 <span className="text-[#225091]">Reset</span>

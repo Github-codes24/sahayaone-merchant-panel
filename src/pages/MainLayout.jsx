@@ -48,7 +48,7 @@ export default function MainLayout() {
         <div className="absolute inset-0 pointer-events-none z-[9999] flex items-center justify-center overflow-hidden opacity-[0.08]">
           <img 
             src="/Logo.png" 
-            alt="Advita Watermark" 
+            alt="Sahayaone Watermark" 
             className="w-[80%] max-w-[600px] select-none" 
           />
         </div>

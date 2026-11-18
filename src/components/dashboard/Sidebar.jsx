@@ -113,10 +113,10 @@ export default function Sidebar({ currentPath, navigate }) {
       <div className="flex flex-col">
         {/* Brand Header */}
         <div className="flex items-center gap-3 px-4 h-[76px] bg-white border-b border-[#E5E7EB] flex-shrink-0">
-          <img src="/Logo.png" alt="ADVITA CREDIT" className="h-9 w-auto object-contain select-none flex-shrink-0" />
+          <img src="/Logo.png" alt="SAHAYAONE" className="h-9 w-auto object-contain select-none flex-shrink-0" />
           <div className="flex flex-col">
             <span className="text-[15px] font-black text-[#2B4282] tracking-wide leading-tight">
-              ADVITA CREDIT
+              SAHAYAONE
             </span>
             <span className="text-[10px] font-extrabold text-[#2B4282] uppercase tracking-wider leading-tight">
               INFO PRIVATE LIMITED
@@ -154,4 +154,3 @@ export default function Sidebar({ currentPath, navigate }) {
     </aside>
   );
 }
-

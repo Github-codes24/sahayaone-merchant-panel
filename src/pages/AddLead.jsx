@@ -844,7 +844,7 @@ export default function AddLead() {
                   className="w-5 h-5 rounded border-gray-300 text-[#2B4282] focus:ring-[#2B4282] cursor-pointer mt-0.5"
                 />
                 <span className="text-sm font-semibold text-gray-700 leading-normal">
-                  I have read, understand, and hereby accept the Advita product application{" "}
+                  I have read, understand, and hereby accept the Sahayaone product application{" "}
                   <span className="text-red-500 hover:underline">Terms and Conditions.</span>
                 </span>
               </label>
