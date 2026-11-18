@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "statusCode": 401,
+  "errorCode": "AUTH_UNAUTHORIZED",
+  "message": "Authentication token signature not found. Access denied.",
+  "details": null,
+  "stack": "ApiError: Authentication token signature not found. Access denied.\n    at ApiError.unauthorized (file:///opt/render/project/src/src/common/api.error.js:15:12)\n    at requireAuth (file:///opt/render/project/src/src/middlewares/rbac.middleware.js:55:28)\n    at Layer.handle [as handle_request] (/opt/render/project/src/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/opt/render/project/src/node_modules/express/lib/router/index.js:328:13)\n    at /opt/render/project/src/node_modules/express/lib/router/index.js:286:9\n    at router.process_params (/opt/render/project/src/node_modules/express/lib/router/index.js:346:12)\n    at next (/opt/render/project/src/node_modules/express/lib/router/index.js:280:10)\n    at router.handle (/opt/render/project/src/node_modules/express/lib/router/index.js:175:3)\n    at router (/opt/render/project/src/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/opt/render/project/src/node_modules/express/lib/router/layer.js:95:5)"
+}

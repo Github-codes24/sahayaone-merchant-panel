@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #1f2a2e;
+    background: #f4f7f8;
+  }
+}
+
+/* Keep chart SVG styles as they can't be easily done with Tailwind */
+.dash-chart-area {
+  fill: rgba(15, 158, 142, 0.08);
+  stroke: none;
+}
+
+.dash-chart-line-green {
+  fill: none;
+  stroke: #0f3d3a;
+  stroke-width: 2.5;
+}
+
+.dash-chart-line-red {
+  fill: none;
+  stroke: #ef4444;
+  stroke-width: 2;
+  stroke-dasharray: 6 5;
+}
+
+@keyframes wh-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes wh-slide-up {
+  from { transform: translateY(24px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+.wh-backdrop {
+  animation: wh-fade-in 0.18s ease;
+}
+
+.wh-card {
+  animation: wh-slide-up 0.22s ease;
+}
