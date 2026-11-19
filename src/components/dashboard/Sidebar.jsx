@@ -112,16 +112,8 @@ export default function Sidebar({ currentPath, navigate }) {
     <aside className="w-[230px] min-h-screen bg-white border-r border-[#E5E7EB] flex flex-col justify-between sticky top-0 rounded-none z-50 shadow-[4px_0_24px_rgba(0,0,0,0.02)]">
       <div className="flex flex-col">
         {/* Brand Header */}
-        <div className="flex items-center gap-3 px-4 h-[76px] bg-white border-b border-[#E5E7EB] flex-shrink-0">
-          <img src="/Logo.png" alt="SAHAYAONE" className="h-9 w-auto object-contain select-none flex-shrink-0" />
-          <div className="flex flex-col">
-            <span className="text-[15px] font-black text-[#2B4282] tracking-wide leading-tight">
-              SAHAYAONE
-            </span>
-            <span className="text-[10px] font-extrabold text-[#2B4282] uppercase tracking-wider leading-tight">
-              INFO PRIVATE LIMITED
-            </span>
-          </div>
+        <div className="flex items-center justify-center px-4 h-[92px] bg-white border-b border-[#E5E7EB] flex-shrink-0">
+          <img src="/Logo-full.png" alt="SAHAYAONE" className="w-[140px] h-[50px] object-contain select-none" />
         </div>
 
         {/* Navigation Items */}
