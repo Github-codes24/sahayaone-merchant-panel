@@ -108,19 +108,21 @@ export default function Login() {
 
       {/* Main content */}
       <div className="flex items-center justify-center px-4 w-full h-full">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-24 w-full max-w-5xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-14 w-full max-w-6xl mx-auto">
           {/* Left – Illustration & Welcome Message */}
-          <div className="hidden lg:flex flex-col items-center justify-center w-full max-w-[480px]">
-          <div className="flex flex-col items-center justify-center mb-6 mt-4 gap-4">
+          <div className="hidden lg:flex flex-col items-center justify-center w-full max-w-[640px]">
+          <div className="flex flex-col items-center justify-center mb-6 mt-4">
             <div className="flex items-center gap-5">
-              <div className="bg-white/95 backdrop-blur-md px-4 py-3 rounded-2xl shadow-xl border border-white/20">
-                <img src="/Logo.png" alt="Sahayaone Logo" className="h-12 object-contain" />
+              <div className="w-[80px] h-[80px] bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-white/20 flex items-center justify-center flex-shrink-0">
+                <img src="/Logo-full.png" alt="Sahayaone" className="w-[72px] h-auto object-contain" />
               </div>
-              <h1 className="text-[28px] font-black text-white uppercase tracking-widest drop-shadow-md leading-tight text-left">
-                WELCOME TO <br/> SAHAYAONE
-              </h1>
+              <div className="flex flex-col items-start gap-3">
+                <h1 className="text-[28px] font-semibold text-white uppercase tracking-normal drop-shadow-md leading-tight text-left">
+                  WELCOME TO <br/> SAHAYAONE
+                </h1>
+                <div className="w-[200px] h-1 bg-[#EB3338] rounded-full shadow-md"></div>
+              </div>
             </div>
-            <div className="w-48 h-1 bg-[#EB3338] rounded-full shadow-md mt-2"></div>
           </div>
           <img
             src="/Login.png"
@@ -136,7 +138,7 @@ export default function Login() {
           >
             {/* Card Header */}
             <div className="flex justify-center mb-4">
-              <img src="/Logo.png" alt="Sahayaone Logo" className="h-12 object-contain drop-shadow-sm" />
+              <img src="/Logo-full.png" alt="Sahayaone" className="w-[200px] max-w-full h-auto object-contain drop-shadow-sm" />
             </div>
             <h1 className="text-[24px] font-black text-center mb-1 uppercase tracking-tight flex items-center justify-center gap-2">
               <span className="text-[#225091]">Merchant</span>
